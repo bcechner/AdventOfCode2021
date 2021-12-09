@@ -153,7 +153,7 @@ class SegmentPattern {
     return this._asString;
   }
 
-  public set asString(value: string) {
+  protected set asString(value: string) {
     this._asString = value;
   }
 
